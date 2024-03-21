@@ -1,0 +1,545 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.order-page-header {
+    margin-top: 7%;
+    margin-bottom: -130px;
+    width: 100%;
+    height: auto;
+    /* Add more styles as needed */
+}
+
+
+/* START OF HEADER AND FOOTER CSS*//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+/* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+/* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+#header-main {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .3);
+    background-color: white;
+}
+
+#header-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+#header-logo-link {
+    margin-left: 2%;
+}
+
+#header-button {
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 20px !important;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .30s ease-in-out;
+}
+
+#header-button:hover {
+    background-color: #E6B453;
+    border-radius: 10px;
+    color: white;
+}
+
+#header-search-bar {
+    width: 15vw;
+    border-radius: .85rem;
+    box-shadow: none;
+    position: relative;
+}
+
+#header-search-bar:focus {
+    border: 1px solid #E6B453;
+}
+
+#header-search-button {
+    font-size: 1.5rem;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .6rem;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-border-radius: .85rem;
+    --bs-btn-color: black;
+}
+
+#header-search-button:hover {
+    background-color: white;
+    color: #E6B453;
+}
+
+#header-login-signup {
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 1.75rem;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-border-color: transparent;
+}
+
+#header-login-signup:hover {
+    background-color: white;
+    color: #E6B453;
+}
+
+footer {
+    padding: 0;
+    margin-top: auto;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ECC8AD;
+}
+
+footer {
+    padding: 40px 2% 60px;
+    margin: 0px;
+}
+
+#footer-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 5.2rem;
+}
+
+#footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content h6 {
+    color: #693625;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.footer-content li {
+    margin-bottom: 8px;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+
+.footer-content p {
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 20px 2px;
+    margin-bottom: 2px;
+}
+
+#social-media-icons a {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 10px;
+    transition: all .40s ease;
+}
+
+#social-media-icons a:hover {
+    color: white;
+    transform: translateY(-5px);
+}
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+
+
+/* START OF ORDER FORM *//* START OF ORDER FORM *//* START OF ORDER FORM */
+/* START OF ORDER FORM *//* START OF ORDER FORM *//* START OF ORDER FORM */
+/* START OF ORDER FORM *//* START OF ORDER FORM *//* START OF ORDER FORM */
+
+/* 
+#titleOrder{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 12%; 
+    margin-bottom: -200px; 
+} */
+
+#col1{
+    width: 45%;
+    padding: 30px;
+    margin: 0 auto;
+    /* margin: 20% auto; */
+    background-color: #ECC8AD;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: -10px; 
+}
+
+.menu-item label {
+    margin-right: 30px;
+}
+
+.menu-item .input-group {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item .form-control {
+    width: calc(100% - 90px); /*input field */
+    margin-right: 5px; 
+}
+
+.menu-item .input-group-text {
+    width: 60px; /*price display */
+    text-align: center;
+}
+
+#col2{
+    width: 45%;
+    padding: 30px;
+    /* margin: 0 auto; */
+    /* margin: 20% auto; */
+    background-color: #ECC8AD;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    align-items: center;
+    width: 50%;
+    padding: 30px;
+    margin: 0 auto;
+    /* margin: -100px auto;  */
+    margin-bottom: 100px; 
+    background-color:#ECC8AD;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+#swName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+#wdName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+
+#cdName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+
+#dpName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+#psName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: -20px;
+}
+
+#inkName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: -20px;
+}
+
+#bName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+
+#LName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+
+#cName{
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: -20px;
+}
+
+#menuName {
+    text-align: center;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .label-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-family: "Urbanist", sans-serif;
+    color: #693625;
+  }
+
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name-field {
+    width: 48%; 
+  }
+
+  .name-field input {
+    width: 48%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  input[type="number"],
+  input[type="submit"] {
+    width: 100%;
+    height: 35px;
+    background: #f6f6f6;
+    border: 1px solid #693625;;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  input[type="submit"] {
+    font-family: "Urbanist", sans-serif;
+    margin-top: 5%;
+    padding: 17px;
+    line-height: 5%;
+    background-color:#693625;
+    color:white;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #E6B453;
+    color:white;
+    border: 1px solid #E6B453;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  select:focus,
+  input[type="number"]:focus {
+    outline: none;
+    background-color:white;
+  }
+
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+select::placeholder,
+input[type="number"]::placeholder {
+  color: #999; 
+  font-family: "Urbanist", sans-serif;
+}
+
+/* changing the placeholder color and font-style */
+input[type="text"]::placeholder {
+  color: #aaa;
+  font-family: "Urbanist", sans-serif;
+}
+
+option {
+    color: #333; 
+    font-family: "Urbanist", sans-serif; 
+    font-size: 14px; 
+    font-weight: normal; 
+  }
+
+select:focus option:checked {
+    font-family: "Urbanist", sans-serif; 
+}
+
+/* MODAAAAAAAAAAAAAL */
+/* CSS for modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Close button for modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #titleOrder {
+        font-size: 3rem; 
+        margin-top: 8%; 
+        margin-bottom: -150px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #titleOrder {
+        font-size: 2rem; 
+        margin-top: 6%; 
+        margin-bottom: -100px; 
+    }
+}
+
+
+#col1, #col2{
+    width: 45%;
+    padding: 30px;
+    margin: 20% auto;
+    margin-bottom: 50px;
+    background-color: #ECC8AD;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media screen and (max-width: 768px) {
+    #col1, #col2, .form-container {
+        width: 90%;
+        margin: 10% auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #col1, #col2, .form-container {
+        width: 95%;
+        margin: 5% auto;
+        padding: 20px;
+    }
+
+    /* Adjust font sizes for smaller screens */
+    #titleOrder {
+        font-size: 3rem;
+    }
+    
+    #menuName {
+        font-size: 2rem;
+    }
+}
+
+/* Adjust menu item layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .menu-item {
+        margin-bottom: 0; /* Reset margin for smaller screens */
+    }
+
+    .menu-item label {
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+    
+    .menu-item .input-group {
+        flex-direction: column; /* Stack input group vertically for smaller screens */
+    }
+
+    .menu-item .form-control {
+        width: 100%; /* Full width for input field */
+        margin-right: 0; /* Reset margin */
+        margin-bottom: 10px; /* Add some bottom margin */
+    }
+
+    .menu-item .input-group-text {
+        width: 100%; /* Full width for price display */
+        text-align: left; /* Align price text to left */
+    }
+}

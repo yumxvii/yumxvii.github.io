@@ -1,0 +1,91 @@
+/* featured image*/
+
+img{
+    width: 100%;
+}
+
+/* button */
+
+
+#sendmessage:hover{
+    background-color: #936636 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+#viewall:hover{
+  background-color: #ffefe2 !important;
+  font-weight: bold;
+  color: #936636 !important;
+}
+
+/* ALL THE INPUT ELEMENTS AND TEXT AREA */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgb(229, 196, 149);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(229, 196, 149, 0.6);
+  outline: 0 none;
+}
+
+textarea:focus{
+    border-color: rgb(229, 196, 149) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(229, 196, 149, 0.6) !important;
+    outline: 0 none !important;
+}
+
+
+/* business info */
+.icon-circle {
+    width: 4rem; 
+    height: 4rem; 
+    line-height: 4rem; 
+    text-align: center;
+    border-radius: 50%; 
+    background-color: #936636; 
+    color: #fff; 
+  }
+
+  .icon-circle i {
+    font-size: 2rem; 
+    color: white;
+  }
+
+  #product-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+    justify-content: center; 
+  }
+
+  
+
+  @media (min-width: 1024px) {
+
+    /* modal*/
+
+    #myModal2 .modal-contents {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px !important;
+      border: 1px solid #888;
+      width: 60% !important;
+      position: relative;
+      overflow: auto; 
+    
+    }
+       
+  }
+  

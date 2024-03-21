@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+
+}
+
+#header-main{
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.3);
+    background-color: white;
+}
+
+#header-logo{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+#header-logo-link{
+    margin-left: 2%;
+}
+
+#header-button{
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 20px !important;    
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .30s ease-in-out;
+}
+
+#header-button:hover{
+    background-color: #E6B453;
+    border-radius: 10px;
+    color:  white;
+}
+
+#header-search-bar{
+    width: 20vw;
+    border-radius: .85rem;
+    box-shadow: none;
+}
+
+#header-search-bar:focus{
+    border: 1px solid #E6B453;
+}
+
+#header-search-button{
+    font-size: 1.5rem;
+    --bs-btn-padding-y: .25rem; 
+    --bs-btn-padding-x: .6rem;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-border-color:transparent;
+    --bs-btn-border-radius: .85rem;
+    --bs-btn-color: black;
+}
+
+#header-search-button:hover{
+    background-color: white;
+    color: #E6B453;
+}
+
+#header-login-signup{
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 1.75rem;
+    --bs-btn-hover-border-color:transparent;
+    --bs-btn-border-color: transparent;
+}
+
+#header-login-signup:hover{
+    background-color: white;
+    color: #E6B453;
+}
+
+
+footer{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ECC8AD;
+}
+
+footer{
+    padding: 40px 2% 60px;
+    margin: 0px;
+  }
+  
+#footer-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px, auto));
+    gap: 5.2rem;
+  }
+
+#footer-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer-content h6{
+    color:#693625;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    font-weight:900;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+.footer-content li{
+    margin-bottom: 8px;
+  }
+  
+.footer-content li a{
+      text-decoration: none;
+      display: block;
+      color: black;
+      font-size: 15px;
+      font-weight: 400;
+      transition: all .40s ease;
+  }
+  
+.footer-content li a:hover{
+      transform: translateY(-3px) translateX(-5px);
+      color:white;
+  }
+  
+.footer-content p{
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 20px 2px;
+    margin-bottom: 2px;
+  }
+  
+#social-media-icons a{
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 10px;
+    transition: all .40s ease;
+  }
+  
+#social-media-icons a:hover{
+    color: white;
+    transform: translateY(-5px);
+  }
+  
+  
