@@ -1,0 +1,491 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* START OF HEADER AND FOOTER CSS*//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+/* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+/* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS *//* START OF HEADER AND FOOTER CSS */
+#header-main {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .3);
+    background-color: white;
+}
+
+#header-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+#header-logo-link {
+    margin-left: 2%;
+}
+
+#header-button {
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 20px !important;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all .30s ease-in-out;
+}
+
+#header-button:hover {
+    background-color: #E6B453;
+    border-radius: 10px;
+    color: white;
+}
+
+#header-search-bar {
+    width: 15vw;
+    border-radius: .85rem;
+    box-shadow: none;
+    position: relative;
+}
+
+#header-search-bar:focus {
+    border: 1px solid #E6B453;
+}
+
+#header-search-button {
+    font-size: 1.5rem;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .6rem;
+    --bs-btn-border-color: transparent;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-border-radius: .85rem;
+    --bs-btn-color: black;
+}
+
+#header-search-button:hover {
+    background-color: white;
+    color: #E6B453;
+}
+
+#header-login-signup {
+    font-family: "Urbanist", sans-serif;
+    color: black;
+    font-size: 1.75rem;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-border-color: transparent;
+}
+
+#header-login-signup:hover {
+    background-color: white;
+    color: #E6B453;
+}
+
+footer {
+    padding: 0;
+    margin-top: auto;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ECC8AD;
+}
+
+footer {
+    padding: 40px 2% 60px;
+    margin: 0px;
+}
+
+#footer-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 5.2rem;
+}
+
+#footer-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content h6 {
+    color: #693625;
+    margin-bottom: 1.2rem;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.footer-content li {
+    margin-bottom: 8px;
+}
+
+.footer-content li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+
+.footer-content p {
+    color: black;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 20px 2px;
+    margin-bottom: 2px;
+}
+
+#social-media-icons a {
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 10px;
+    transition: all .40s ease;
+}
+
+#social-media-icons a:hover {
+    color: white;
+    transform: translateY(-5px);
+}
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+/* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */ /* END OF HEADER AND FOOTER CSS */
+
+
+/* START OF LOGIN CSS *//* START OF LOGIN CSS *//* START OF LOGIN CSS */
+/* START OF LOGIN CSS *//* START OF LOGIN CSS *//* START OF LOGIN CSS */
+/* START OF LOGIN CSS *//* START OF LOGIN CSS *//* START OF LOGIN CSS */
+#loginsignup {
+    width: 24%;
+    margin: 18% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: 500;
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+input::placeholder {
+    font-family: "Urbanist", sans-serif;
+}
+
+#email-input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#email-input input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#pass-input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#pass-input input{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#loginbutton {
+    width: 98%; 
+    padding: 10px;
+    background-color: #E6B453;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+#loginbutton:hover {
+    background-color: #693625;
+}
+
+#loginword {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #693625;
+    text-align: center;
+    margin: 5px;
+}
+
+#forgotpassword{
+    color: #693625;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#loginterms{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+}
+
+#loginterms a {
+    color: #E6B453; 
+    text-decoration: none; 
+}
+
+#loginterms a:hover {
+    color: #693625; 
+}
+
+.hr-container {
+    position: relative;
+    width: 100%;
+}
+
+.hr-container hr {
+    border: none;
+    height: 1px;
+    background-color: black;
+    margin: 10;
+}
+
+.middle-text {
+    color: #693625;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 10px; 
+}
+
+#google-button, #facebook-button {
+    width: 95%;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color:transparent; 
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#google-button:hover, #facebook-button:hover {
+    color: white;
+    background-color: #E6B453; 
+}
+
+#signupword{
+    color: #693625;
+    margin: 5px;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#signup-link{
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#signup-link:hover {
+    color:#E6B453;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #loginsignup {
+        width: 80%;
+    }
+}
+/* END OF LOGIN CSS *//* END OF LOGIN CSS *//* END OF LOGIN CSS */
+/* END OF LOGIN CSS *//* END OF LOGIN CSS *//* END OF LOGIN CSS */
+/* END OF LOGIN CSS *//* END OF LOGIN CSS *//* END OF LOGIN CSS */
+
+
+
+/* START OF SIGNUP CSS *//* START OF SIGNUP CSS *//* START OF SIGNUP CSS */
+/* START OF SIGNUP CSS *//* START OF SIGNUP CSS *//* START OF SIGNUP CSS */
+/* START OF SIGNUP CSS *//* START OF SIGNUP CSS *//* START OF SIGNUP CSS */
+#signup{
+    width: 100%;
+    max-width: 500px;
+    margin: 15% auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#signupname{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: #693625;
+    text-align: center;
+    margin: 5px;
+}
+
+#firstname-input,
+#lastname-input {
+    width: 44%; 
+    display: inline-block;
+    margin-right: 5%; 
+    border-radius: 5px;
+}
+
+#firstname-input input,
+#lastname-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#email-input2, #pass-input2 {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#signupbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #E6B453;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+}
+
+#signupbutton:hover {
+    background-color: #693625;
+}
+
+#loginname{
+    color: #693625;
+    margin: 5px;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#login-link{
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#login-link:hover {
+    color:#E6B453;
+}
+
+#repass-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#repass-input label {
+    font-weight: 500;
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+}
+
+#repass-input input {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#repass-input input::placeholder {
+    font-family: "Urbanist", sans-serif;
+}
+
+#email-updates-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#email-updates-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#email-updates-checkbox label {
+    font-size: 14px;
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+} 
+
+.input-group2{
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-group2 label {
+    font-weight: 500;
+    color: #693625;
+    font-family: "Urbanist", sans-serif;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #signup {
+        margin: 10% auto;
+    }
+    
+    #firstname-input, #lastname-input {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    #signupbutton {
+        width: 100%;
+    }
+}
+/* END OF SIGNUP CSS *//* END OF SIGNUP CSS *//* END OF SIGNUP CSS */
+/* END OF SIGNUP CSS *//* END OF SIGNUP CSS *//* END OF SIGNUP CSS */
+/* END OF SIGNUP CSS *//* END OF SIGNUP CSS *//* END OF SIGNUP CSS */

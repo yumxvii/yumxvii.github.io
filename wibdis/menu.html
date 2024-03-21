@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vitaly Tea</title>
+        <link href="hdr-ftr-style.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/images/logo2/favicon.ico">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        >
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+       <script src="script.js"></script>
+
+      </head>
+    <body>
+        <header>
+            <!--Header Section-->
+            <div id="header-container" class="container">
+                <div class="container-fluid">
+                    <nav id="header-main" class="navbar fixed-top navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01"
+                                aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                 
+                                <a id="header-logo-link" class="navbar-brand" href="#">
+                                    <img id="header-logo" src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/431161070_934999977931200_4866373050514621168_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGYa4YSDMOVO0LaT39egYVtRWkFiQToR7tFaQWJBOhHu5euseJ7rjFkMFG3WyWe6untoGsO_rIrtxLNmo6YFltq&_nc_ohc=O6M9nj6yGOsAX9Jw0xt&_nc_ht=scontent.fmnl17-1.fna&oh=03_AdQBC4cWcvXKt3WQquKEZEJsPHsA9OqjemJAWb-x3c_Ipg&oe=66190A6C">
+                                </a>
+                                
+                                <div class="container-fluid">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 end-0 d-flex justify-content-end">
+                                        <li class="nav-item">
+                                            <a
+                                                id="header-button"
+                                                class="nav-link"
+                                                aria-current="page"
+                                                href="index.html"
+                                            >Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <!--ADD LINK HERE-->
+                                            <a id="header-button" class="nav-link" href="services-main.html">Services</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a id="header-button" class="nav-link" href="menu.html">Menu</a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <!--ADD LINK HERE-->
+                                            <a id="header-button" class="nav-link" href="OrderPage.html">Order</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <!--ADD LINK HERE-->
+                                           <a id="header-button" class="nav-link" href="contact.html">Contact Us</a>
+                                       </li>
+                                    </ul>
+                                </div>
+                                <form class="d-flex" role="search">
+                                    <input
+                                        id="header-search-bar"
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                    >
+                                    <button id="header-search-button" class="btn btn-outline-light" type="submit">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </form>
+                                <a id="header-login-signup" href = "login.html"class="btn btn-outline-light" type="submit">
+                                    <i class="bi bi-person-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+
+        <main class="mt-5">
+
+            <div id="myModal" class="modal">
+                <div class="modal-contents rounded-4">
+                    <div class="modal-headers">
+                      <span class="close" onclick="closeModal()">&times;</span>
+                      <h2 id = "item-header">Chamomile Tea</h2>
+                    </div>
+                    <div class="modal-body">
+                      <div class="image-container">
+                        <img id="item-image" src="https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319646/black-tea.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="description-container">
+                      <h2 id = "item-name" >Chamomile Tea</h2>
+                      <h4 id = "item-price">P20</h4>
+                      <div id = "stars" class = "stars py-2">
+                        
+                      </div>
+                      <p id = "item-description">Chamomile tea: a fragrant herbal infusion known for its calming properties, perfect for relaxation and aiding in sleep.</p>
+                      <p id = "item-ingredients" class = " font-italic">aa</p>
+  
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+
+            <div id="featured" class="pt-lg-5 py-3">
+                <div class="container-fluid p-lg-5  py-lg-4">
+                    <img
+                        id="featured-img"
+                        class="rounded-3"
+                        src="images/all-products.png"
+                        alt=""
+                    >
+                </div>
+            </div>
+           
+
+
+            
+           
+            <div class="container pb-md-5 ">
+                <h1 id="menu-title" class="text-center text-brown display-4 font-italic font-bold">All Products</h1>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10 ">
+                        <p id="menu-description" class="text-center font-medium w-75 w-md-100 mx-auto">Welcome to Vitaly Tea, where every visit is an adventure for your senses. Our menu isn't just a list of offerings; it's a journey through flavors, textures, and experiences that will leave you craving more. Step into our world and discover a haven where printing services meet culinary delights, creating an atmosphere that's as inviting as it is inspiring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container w-75 w-md-100 bg-lb rounded-2 p-3 mx-sm-auto">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill nav-link active" data-rel="all" href="#">All Products</a>
+                <a class="flex-sm-fill nav-link" data-rel="warm-drinks" href="#">Warm Drinks</a>
+                <a class="flex-sm-fill nav-link" data-rel="cold-drinks" href="#">Cold Drinks</a>
+                <a class="flex-sm-fill nav-link" data-rel="sandwiches" href="#">Sandwiches</a>
+            </nav>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div id="product-container" class="py-5">
+                <div class="card warm-drinks" onclick="changeModalItems('warm', 0, 3.5)" style="">
+                    <img src="https://bonnieplants.com/cdn/shop/products/052022_T118630_202010_Bonnie_Chamomile_ALT_01.jpg?v=1655326422 " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chamomile Tea</h5>
+                        <p class="card-text">P110</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card warm-drinks"  onclick="changeModalItems('warm', 1, 3.5)" style="">
+                    <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319646/black-tea.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Black Tea</h5>
+                        <p class="card-text">P150</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card warm-drinks"  onclick="changeModalItems('warm', 2, 3.5)" style="">
+                    <img src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/02/Chai-Latte-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chai Tea</h5>
+                        <p class="card-text">P150</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card warm-drinks" onclick="changeModalItems('warm', 3, 3.5)"  style="">
+                    <img src="https://feelgoodfoodie.net/wp-content/uploads/2021/11/how-to-make-hot-chocolate-7.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hot Choco</h5>
+                        <p class="card-text">P150</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card warm-drinks"  onclick="changeModalItems('warm', 4, 3.5)"  style="">
+                    <img src="https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mocha Coffee</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 0, 4)"  style="">
+                    <img src="https://livinghealthywithchocolate.com/wp-content/uploads/2016/02/Paleo-Strawberry-Milkshake-dairy-free-sugar-free-gluten-free.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Strawberry Shake</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 1, 4)" style="">
+                    <img src="https://www.cookswithcocktails.com/wp-content/uploads/2016/06/Gin-Fizz-5.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Raspberry Fizz Shake</h5>
+                        <p class="card-text">P100</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 2, 4)" style="">
+                    <img src="https://cookingformysoul.com/wp-content/uploads/2022/05/mixed-berry-smoothie-2-min.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mixed Berries Shake</h5>
+                        <p class="card-text">P110</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 3, 4)" style="">
+                    <img src="https://www.ambitiouskitchen.com/wp-content/uploads/2019/08/Mango-Pineapple-Coconut-Smoothie-4-725x725.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mango Shake</h5>
+                        <p class="card-text">P100</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 4, 4)" style="">
+                    <img src="https://www.tamingtwins.com/wp-content/uploads/2018/07/iced-coffee-recipe-11.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Iced Coffee</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks" onclick="changeModalItems('cold', 5, 4)" style="">
+                    <img src="https://www.theendlessmeal.com/wp-content/uploads/2014/04/Very-Berry-Smoothie-3.jpg " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Berry Almond Shake</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card cold-drinks"  onclick="changeModalItems('cold', 6,  4)"style="">
+                    <img src="https://www.thespruceeats.com/thmb/RLDzyLxDroJvsLJ4tscR38K8fBQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/avocado-mango-smoothie-recipe-3377400-hero-01-5c8d20e846e0fb0001770069.jpg  " class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Avocado Shake</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 0, 4)" style="">
+                    <img src="https://fantabulosity.com/wp-content/uploads/2022/05/Tuna-Salad-Recipe-25.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tuna Salad Sandwich</h5>
+                        <p class="card-text">P150</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 1, 4)" style="">
+                    <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktop%20images/2018_salami-pickle-grilled-cheese_20348_desktop.jpg?ext=.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pickle Grilled Sandwich</h5>
+                        <p class="card-text">P180</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches"  onclick="changeModalItems('sandwich', 2, 4)" style="">
+                    <img src="https://dinnersdishesanddesserts.com/wp-content/uploads/2017/01/Pepperoni-Pizza-Grilled-Cheese-3-square.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Pepperoni Pizza Sandwich</h5>
+                        <p class="card-text">P200</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 3, 4)" style="">
+                    <img src="https://www.peanutbutter.com/wp-content/uploads/2022/03/Web_500_Classic-Peanut-Butter-Jelly-Sandwich.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Peanut Butter and Jelly Sandwich</h5>
+                        <p class="card-text">P100</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches"  onclick="changeModalItems('sandwich', 4, 4)" style="">
+                    <img src="https://www.thechunkychef.com/wp-content/uploads/2016/05/Monte-Cristo-Sandwiches-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Monte Cristo Sandwich</h5>
+                        <p class="card-text">P180</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 5, 4)" style="">
+                    <img src="https://cheeseknees.com/wp-content/uploads/2022/12/Grilled-Ham-and-Cheese-sq.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ham and Cheese Sandwich</h5>
+                        <p class="card-text">P100</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 6, 4)" style="">
+                    <img src="https://www.allthingsmamma.com/wp-content/uploads/2023/03/egg-and-cheese-sandwich-hero-5-scaled.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Egg Sandwich</h5>
+                        <p class="card-text">P100</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches" onclick="changeModalItems('sandwich', 7, 4)" style="">
+                    <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/449789.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chicken Sandwich</h5>
+                        <p class="card-text">P120</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches"  onclick="changeModalItems('sandwich', 8, 4)"style="">
+                    <img src="https://littlesunnykitchen.com/wp-content/uploads/2022/07/BLT-Sandwich-1-800x1200.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">BLT Sandwich</h5>
+                        <p class="card-text">P200</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="card sandwiches"  onclick="changeModalItems('sandwich', 9, 4)" style="">
+                    <img src="https://stordfkenticomedia.blob.core.windows.net/df-us/rms/media/recipemediafiles/recipes/retail/desktopimages/2019_df_retail_bacon-pimento-cheese-grilled-cheese_20883_cropped_600.jpg?ext=.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bacon Sandwich</h5>
+                        <p class="card-text">P200</p>
+                        <div class="py-2">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <a href="#" class="btn btn-product">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+<footer>
+    <!--Footer Section-->
+    <div id="footer-container" class="container">
+        <div class="container-fluid">
+            <div id="footer-main" class="footer sticky-bottom">
+                <div class="footer-content">
+                    <h6>SHOP VITALY TEA</h6>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="OrderPage.html">Digital Printing</a>
+                    </li>
+                    <li>
+                        <a href="menu.html">Menu</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">New & Featured Products</a>
+                    </li>
+                </div>
+                <div class="footer-content">
+                    <h6>OTHER SERVICES</h6>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Binding</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Laminating</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Cutting</a>
+                    </li>
+                </div>
+                <div class="footer-content">
+                    <h6>CUSTOMER SUPPORT</h6>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Terms & Conditions</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Return and Exchange</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Order Cancellation</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Product Warranty</a>
+                    </li>
+                </div>
+                <div class="footer-content">
+                    <h6>EXPLORE</h6>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Store Locations</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">Contributors</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">FAQs</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                         <!--ADD LINK HERE-->
+                        <a href="...">About Us</a>
+                    </li>
+                </div>
+                <div class="footer-content">
+                    <p>SOCIAL MEDIA</p>
+                    <div id="social-media-icons" class="icons">
+                         <!--ADD LINK HERE-->
+                        <a href="...">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                         <!--ADD LINK HERE-->
+                        <a href="...">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                         <!--ADD LINK HERE-->
+                        <a href="...">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                    <p style="position:relative; color: #fff; font-size: 10px;">© 2024 by VitalyTea. All Rights Reserved. For Educational Purposes only.<br> Produced by Anero | Garcia | Garmay</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const buttons = document.querySelectorAll('.nav-link');
+          const menuTitle = document.getElementById('menu-title');
+          const menuDescription = document.getElementById('menu-description');
+          const featuredImage = document.getElementById('featured-img');
+
+          buttons.forEach(button => {
+              button.addEventListener('click', function () {
+                  buttons.forEach(btn => {
+                      btn.classList.remove('active');
+                  });
+  
+                  this.classList.add('active');
+  
+                  const filterValue = this.getAttribute('data-rel');
+                  const cards = document.querySelectorAll('.card');
+  
+                  cards.forEach(card => {
+                      card.style.display = 'none';
+  
+                      if (filterValue === 'all' || card.classList.contains(filterValue)) {
+                          card.style.display = 'block';
+
+                          if (filterValue === 'warm-drinks') {
+                              menuTitle.textContent = 'Warm Drinks';
+                              featuredImage.src = 'images/warm-drinks.png';
+                              menuDescription.textContent = "Embark on a voyage of warmth and comfort with our enticing selection of hot beverages. Each sip is a symphony of flavors, carefully crafted to tantalize your taste buds and soothe your soul. From the floral notes of our Chamomile Tea to the robust richness of our Black Tea, every option promises a moment of blissful indulgence. Whether you're in need of a pick-me-up or simply craving a moment of relaxation, our warm drinks are sure to delight.";
+                          } else if (filterValue === 'cold-drinks') {
+                              menuTitle.textContent = 'Cold Drinks';
+                              featuredImage.src = 'images/cold-drinks.png';
+                              menuDescription.textContent = "Quench your thirst with our refreshing array of cold beverages, designed to invigorate and revitalize. From vibrant fruit shakes bursting with flavor to smooth and creamy iced coffees, each sip is a refreshing escape from the ordinary. Indulge in the tropical sweetness of our Mango Shake or revel in the zesty tang of our Raspberry Fizz Shake. With each sip, you'll be transported to a world of cool, crisp refreshment.";
+                          } else if (filterValue === 'sandwiches') {
+                              menuTitle.textContent = 'Sandwiches';
+                              featuredImage.src = 'images/sandwiches.jpg';
+                              menuDescription.textContent = "Satisfy your cravings with our mouthwatering selection of sandwiches, crafted with care and bursting with flavor. From classic favorites like the Tuna Salad Sandwich to inventive creations like the Pickle Grilled Sandwich, each bite is a journey of culinary delight. Sink your teeth into the savory goodness of our Pepperoni Pizza Sandwich or savor the creamy richness of our Peanut Butter and Jelly Sandwich. With options to please every palate, our sandwiches are sure to leave you feeling satisfied and satisfied.";
+                          } else {
+                            menuTitle.textContent = 'All Products';
+                              menuDescription.textContent = "Welcome to Vitaly Tea, where every visit is an adventure for your senses. Our menu isn't just a list of offerings; it's a journey through flavors, textures, and experiences that will leave you craving more. Step into our world and discover a haven where printing services meet culinary delights, creating an atmosphere that's as inviting as it is inspiring.";
+                              featuredImage.src = 'images/all-products.png';
+
+                          }
+                          
+                      } 
+                  });
+              });
+          });
+      });
+</script>
+</body>
+</html>

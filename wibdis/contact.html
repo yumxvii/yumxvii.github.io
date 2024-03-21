@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vitaly Tea</title>
+        <link href="hdr-ftr-style.css" rel="stylesheet">
+        <link href="contact.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="menu.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <link rel="icon" type="image/x-icon" href="/images/logo2/favicon.ico">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!--Header Section-->
+            <div id="header-container" class="container">
+                <div class="container-fluid">
+                    <nav id="header-main" class="navbar fixed-top navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo01"
+                                aria-controls="navbarTogglerDemo01"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                                <!--add link sa href-->
+
+                                <a id="header-logo-link" class="navbar-brand" href="#">
+                                    <img id="header-logo" src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/431161070_934999977931200_4866373050514621168_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGYa4YSDMOVO0LaT39egYVtRWkFiQToR7tFaQWJBOhHu5euseJ7rjFkMFG3WyWe6untoGsO_rIrtxLNmo6YFltq&_nc_ohc=O6M9nj6yGOsAX9Jw0xt&_nc_ht=scontent.fmnl17-1.fna&oh=03_AdQBC4cWcvXKt3WQquKEZEJsPHsA9OqjemJAWb-x3c_Ipg&oe=66190A6C">
+                                </a>
+                                <!--dito ilalagay yung logo <img src= "....">-->
+                                <div class="container-fluid">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 end-0 d-flex justify-content-end">
+                                        <li class="nav-item">
+                                            <a
+                                                id="header-button"
+                                                class="nav-link"
+                                                aria-current="page"
+                                                href="index.html"
+                                            >Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                              <!--add link sa href-->
+
+                                              <a id="header-button" class="nav-link" href="services-main.html">Services</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a id="header-button" class="nav-link" href="menu.html">Menu</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a id="header-button" class="nav-link" href="OrderPage.html">Order</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <!--ADD LINK HERE-->
+                                                <a id="header-button" class="nav-link" href="contact.html">Contact Us</a>
+                                                            </li>
+                                    </ul>
+                                </div>
+                                <form class="d-flex" role="search">
+                                    <input
+                                        id="header-search-bar"
+                                        class="form-control me-2"
+                                        type="search"
+                                        placeholder="Search"
+                                        aria-label="Search"
+                                    >
+                                    <button id="header-search-button" class="btn btn-outline-light" type="submit">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+                                </form>
+                                <a id="header-login-signup" href = "login.html"class="btn btn-outline-light" type="submit">
+                                    <i class="bi bi-person-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="mt-5">
+
+            <section>
+            <div id="featured" class="pt-lg-5 py-3">
+                <div class="container-fluid p-lg-5  py-lg-4">
+                    <img class="rounded-4" src="images/contactfeatured.jpg" alt="">
+                </div>
+            </div>
+            <div class="container py-lg-4 ">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <div class="icon-circle mx-auto">
+                            <i class="bi bi-envelope-at-fill"></i>
+                        </div>
+                        <div class="py-2">
+                            <h5>Email</h5>
+                            <p>hello@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <div class="icon-circle mx-auto">
+                            <i class="bi bi-alarm-fill"></i>
+                        </div>
+                        <div class="py-2">
+                            <h5>Opening Hours</h5>
+                            <p>8:00am - 5:00pm</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <div class="icon-circle mx-auto">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="py-2">
+                            <h5>Contact No.</h5>
+                            <p>+6423323234</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-md-6">
+                        <div class="icon-circle mx-auto">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="py-2">
+                            <h5>Website</h5>
+                            <p>vitalytea.org</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-md-3 py-2">
+                <div class="container-fluid text-center">
+                    <h1 class="font-bold text-brown display-4">WE'RE HERE TO HELP</h1>
+                    <p class="font-medium font-italic">For concerns kindly fill up the following</p>
+                </div>
+                <div id="contact" class="container size">
+                    <form action="#!">
+                        <div class="row gy-4 gy-xl-4 p-4 p-xl-5">
+                            <div class="col-12">
+                                <label for="fullname" class="form-label">Full Name
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="fullname"
+                                    name="fullname"
+                                    value=""
+                                    required
+                                >
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Email
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-envelope"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                        </svg>
+                                    </span>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="email"
+                                        name="email"
+                                        value=""
+                                        required
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-telephone"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                        </svg>
+                                    </span>
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        id="phone"
+                                        name="phone"
+                                        value=""
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="subject"
+                                    name="subject"
+                                    value=""
+                                    required
+                                >
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    name="message"
+                                    rows="3"
+                                    required
+                                ></textarea>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-grid">
+                                    <button id="sendmessage" class="btn btn-lg bg-lb" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="myModal2" class="modal">
+                <div class="modal-contents rounded-4">
+                    <div class="modal-headers">
+                        <span class="close" onclick="closeModal2()">&times;</span>
+                        <h2 id="item-header">Chamomile Tea</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="image-container">
+                            <img
+                                id="item-image"
+                                src="https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319646/black-tea.jpg"
+                                class="card-img-top"
+                                alt="..."
+                            >
+                        </div>
+                        <div class="description-container">
+                            <h2 id="item-name">Chamomile Tea</h2>
+                            <h4 id="item-price">P20</h4>
+                            <div id="stars" class="stars py-2"></div>
+                            <p id="item-description">Chamomile tea: a fragrant herbal infusion known for its calming properties, perfect for relaxation and aiding in sleep.</p>
+                            <p id="item-ingredients" class=" font-italic">aa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="px-md-5 d-md-flex justify-content-between align-items-center">
+                <h1 class="font-bold display-6 text-brown text-md-left text-center font-italic">Check some of our products as we print with passion</h1>
+                <div class = "d-flex justify-content-center py-2">
+                  <a id="viewall" href="menu.html" class="btn btn-lg bg-br mt-md-0 mx-auto text-center">View all</a>
+
+                </div>
+              </div>
+            </div>
+            
+            <div style="display: flex; justify-content: center;">
+                <div id="product-container2" class="py-5">
+                    <div class="card warm-drinks" onclick="changeModalItems('warm', 0, 3.5)" style="">
+                        <img src="https://bonnieplants.com/cdn/shop/products/052022_T118630_202010_Bonnie_Chamomile_ALT_01.jpg?v=1655326422 " class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chamomile Tea</h5>
+                            <p class="card-text">P110</p>
+                            <div class="py-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-product">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card warm-drinks" onclick="changeModalItems2('warm', 1, 3.5)" style="">
+                        <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/319/319646/black-tea.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Black Tea</h5>
+                            <p class="card-text">P150</p>
+                            <div class="py-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-product">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card warm-drinks" onclick="changeModalItems2('warm', 2, 3.5)" style="">
+                        <img src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/02/Chai-Latte-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chai Tea</h5>
+                            <p class="card-text">P150</p>
+                            <div class="py-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-product">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="card warm-drinks" onclick="changeModalItems2('warm', 3, 3.5)" style="">
+                        <img src="https://feelgoodfoodie.net/wp-content/uploads/2021/11/how-to-make-hot-chocolate-7.jpg " class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Hot Choco</h5>
+                            <p class="card-text">P150</p>
+                            <div class="py-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-product">Add to Cart</a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <!--Footer Section-->
+                <div id="footer-container" class="container">
+                    <div class="container-fluid">
+                        <div id="footer-main" class="footer sticky-bottom">
+                            <div class="footer-content">
+                                <h6>SHOP VITALY TEA</h6>
+                                <li>
+                                    <a href="...">Digital Printing</a>
+                                </li>
+                                <li>
+                                    <a href="...">Menu</a>
+                                </li>
+                                <li>
+                                    <a href="...">New & Featured Products</a>
+                                </li>
+                            </div>
+                            <div class="footer-content">
+                                <h6>OTHER SERVICES</h6>
+                                <li>
+                                    <a href="...">Binding</a>
+                                </li>
+                                <li>
+                                    <a href="...">Laminating</a>
+                                </li>
+                                <li>
+                                    <a href="...">Cutting</a>
+                                </li>
+                            </div>
+                            <div class="footer-content">
+                                <h6>CUSTOMER SUPPORT</h6>
+                                <li>
+                                    <a href="...">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="...">Return and Exchange</a>
+                                </li>
+                                <li>
+                                    <a href="...">Order Cancellation</a>
+                                </li>
+                                <li>
+                                    <a href="...">Product Warranty</a>
+                                </li>
+                            </div>
+                            <div class="footer-content">
+                                <h6>EXPLORE</h6>
+                                <li>
+                                    <a href="...">Store Locations</a>
+                                </li>
+                                <li>
+                                    <a href="...">Contributors</a>
+                                </li>
+                                <li>
+                                    <a href="...">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="...">About Us</a>
+                                </li>
+                            </div>
+                            <div class="footer-content">
+                                <p>SOCIAL MEDIA</p>
+                                <div id="social-media-icons" class="icons">
+                                    <a href="...">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="...">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                    <a href="...">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </div>
+                                <p style="position:relative; color: #fff; font-size: 10px;">© 2024 by VitalyTea. All Rights Reserved. For Educational Purposes only.<br> Produced by Anero | Garcia | Garmay</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </body>
+    </html>
